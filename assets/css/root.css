@@ -1,0 +1,90 @@
+/* main colors */
+:root {
+    --primary: rgb(0, 115, 230);
+    --secondary: rgb(255, 111, 97);
+    --accent: rgb(76, 175, 80);
+    --white: rgb(255, 255, 255);
+    --background: rgb(251, 252, 254);
+    --dark: var(--black);
+}
+
+/* main shade from black */
+:root {
+    --black-shade-14: #fcfcfd;
+    --black-shade-13: #f6f6f8;
+    --black-shade-12: #e8e8ee;
+    --black-shade-11: #caccd8;
+    --black-shade-10: #adafc2;
+    --black-shade-9: #9092ad;
+    --black-shade-8: #727697;
+    --black-shade-7: #5b5e7b;
+    --black-shade-6: #45485e;
+    --black-shade-5: #363849;
+    --black-shade-4: #2b2d3b;
+    --black-shade-3: #21222c;
+    --black-shade-2: #16161d;
+    --black-shade: #0d0d12;
+}
+
+
+
+/* color tokens */
+:root {
+    --body-margin: 160px;
+    --body-bg: var(--background);
+    --content-bg: var(--white);
+
+
+    /* text */
+    --dark-text: var(--black-shade);
+    --dark-text-2: var(--black-shade-2);
+    --dark-text-3: var(--black-shade-3);
+    --dark-text-4: var(--black-shade-4);
+    --dark-text-5: var(--black-shade-5);
+    --dark-text-6: var(--black-shade-6);
+    --dark-text-7: var(--black-shade-7);
+    --dark-text-8: var(--black-shade-8);
+    --dark-text-9: var(--black-shade-9);
+
+    --light-text: var(--black-shade-14);
+    --light-text-2: var(--black-shade-13);
+    --light-text-3: var(--black-shade-12);
+    --light-text-4: var(--black-shade-11);
+    --light-text-5: var(--black-shade-10);
+
+
+    /* stroke */
+    --dark-stroke: var(--black-shade);
+    --dark-stroke-2: var(--black-shade-2);
+    --dark-stroke-3: var(--black-shade-3);
+    --dark-stroke-4: var(--black-shade-4);
+    --dark-stroke-5: var(--black-shade-5);
+    --dark-stroke-6: var(--black-shade-6);
+    --dark-stroke-7: var(--black-shade-7);
+    --dark-stroke-8: var(--black-shade-8);
+    --dark-stroke-9: var(--black-shade-9);
+
+    --light-stroke: var(--black-shade-14);
+    --light-stroke-2: var(--black-shade-13);
+    --light-stroke-3: var(--black-shade-12);
+    --light-stroke-4: var(--black-shade-11);
+    --light-stroke-5: var(--black-shade-10);
+}
+
+
+
+/* effect - shadows */
+:root {
+    --drop-shadow-sm: 0px 5px 5px 0px rgba(0, 0, 0, 0.05);
+    --drop-shadow-sm-2: 0px 15px 25px 0px rgba(0, 0, 0, 0.05);
+}
+
+/* typescale */
+:root {
+    --font-family: 'inter', sans-serif;
+    --letter-spacing: -0.5px;
+
+    /* caption */
+    --caption-semibold: 12px/20px var(--font-family) var(--letter-spacing) uppercase;
+
+}

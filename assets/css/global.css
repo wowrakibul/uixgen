@@ -1,0 +1,78 @@
+@import url(/assets/css/root.css);
+
+*,
+html {
+    font-family: 'inter' sans-serif;
+    letter-spacing: 0.5px;
+}
+
+body {
+    background-color: var(--body-bg);
+}
+
+
+.logo {
+    width: 48px;
+    height: auto;
+}
+
+a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--accent);
+}
+
+/* icon sizing */
+.icon-16px {
+    width: 16px;
+}
+
+.icon-20px {
+    width: 20px;
+}
+
+.icon {
+    width: 24px;
+}
+
+.icon-32px {
+    width: 32px;
+}
+
+.icon-36px {
+    width: 36px;
+}
+
+.icon-40px {
+    width: 40px;
+}
+
+.icon-48px {
+    width: 48px;
+}
+
+
+.search_container {
+    display: flex;
+    flex-direction: row;
+    padding: 4px 16px;
+    height: 40px;
+    width: auto;
+    gap: 12px;
+    border: 2px solid var(--light-stroke-3);
+    border-radius: 12px;
+}
+
+#search-input {
+    height: auto;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    height: auto;
+    color: var(--dark-text-6);
+    font-size: 16px;
+}
