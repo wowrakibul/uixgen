@@ -1,0 +1,17 @@
+
+.header{
+    width: 100%;
+    height: 112px;
+    /* text-align: center; */
+    display: inline-block;
+
+}
+
+
+.list_label {
+    background: var(--gradient-blue-red);
+    color: var(--light-text);
+    width: fit-content;
+    padding: 4px 12px;
+    border-radius: 8px;
+}

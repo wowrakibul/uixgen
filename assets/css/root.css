@@ -6,6 +6,9 @@
     --white: rgb(255, 255, 255);
     --background: rgb(251, 252, 254);
     --dark: var(--black);
+
+    /* main gradients */
+    --gradient-blue-red: linear-gradient(96deg, #1CD6FF -12.03%, #8e32d4 124.31%);
 }
 
 /* main shade from black */
