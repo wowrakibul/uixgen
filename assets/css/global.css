@@ -4,10 +4,13 @@
 html {
     font-family: 'inter' sans-serif;
     letter-spacing: 0.5px;
+    box-sizing: border-box;
 }
 
 body {
     background-color: var(--body-bg);
+    padding: 0px;
+    margin: 0px;
 }
 
 
@@ -55,12 +58,12 @@ a:hover {
 }
 
 
-.search_container {
+.search__container {
     display: flex;
     flex-direction: row;
     padding: 4px 16px;
     height: 40px;
-    width: auto;
+    width: 20%;
     gap: 12px;
     border: 2px solid var(--light-stroke-3);
     border-radius: 12px;
